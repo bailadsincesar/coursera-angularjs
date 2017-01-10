@@ -14,6 +14,7 @@
     LunchCheckController.$inject = ['$scope'];
 
     // variables that start with $ are specially reserved for Angular
+    // $scope object is used to share data between VM and V
     function LunchCheckController($scope) { 
         $scope.menu = '';
 
